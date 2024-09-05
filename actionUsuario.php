@@ -25,7 +25,7 @@
             $erroPreenchimento = true;
         }
         else {
-            $cidadeUsuario = filtrar_entrada($_POST["cursoUsuario"]);
+            $cursoUsuario = filtrar_entrada($_POST["cursoUsuario"]);
         }
 
 
@@ -120,10 +120,6 @@
                                 <tr>
                                     <th>CURSO</th>
                                     <td>$cursoUsuario</td>
-                                </tr>
-                                <tr>
-                                    <th>TELEFONE</th>
-                                    <td>$telefoneUsuario</td>
                                 </tr>
                                 <tr>
                                     <th>EMAIL</th>
