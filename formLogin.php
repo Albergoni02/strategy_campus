@@ -1,8 +1,14 @@
 <?php include("header.php") ?>
+<style>
+    body {
+        background-color: black; /* Fundo preto */
+        /*color: white; /* Texto branco */
+    }
+</style>
 
     <div class="container-fluid text-center">
 
-        <h2>Acessar o Sistema:</h2>
+        <h2 style="color:#3b7086;">Acessar o Sistema:</h2>
 
         <div class="d-flex justify-content-center mb-3">
             <div class="row">

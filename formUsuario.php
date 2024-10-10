@@ -1,8 +1,14 @@
 <?php include("header.php") ?>
+<style>
+    body {
+        background-color: black; /* Fundo preto */
+       /*color: white; /* Texto branco */
+    }
+</style>
 
     <div class="container-fluid text-center">
 
-        <h2>Cadastro de Usuário:</h2>
+        <h2 style="color:#3b7086;">Cadastro de Usuário:</h2>
 
         <div class="d-flex justify-content-center mb-3">
 

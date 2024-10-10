@@ -1,4 +1,10 @@
 <?php include "header.php"; ?>
+<style>
+    body {
+        background-color: black; /* Fundo preto */
+        color: white; /* Texto branco */
+    }
+</style>
 
 <?php
     //Bloco para declaração de variáveis PHP
@@ -97,7 +103,7 @@
         if(!$erroPreenchimento && !$erroUpload){
 
             //Armazena a QUERY na variável $inserirUsuario
-            $inserirUsuario = "INSERT INTO Usuarios (fotoUsuario, nomeUsuario, cursoUsuario, emailUsuario, senhaUsuario) VALUES ('$fotoUsuario', '$nomeUsuario', '$cursoUsuario', '$emailUsuario', '$senhaUsuario')";
+            $inserirUsuario = "INSERT INTO Usuario (foto, nome, curso, email, senha) VALUES ('$fotoUsuario', '$nomeUsuario', '$cursoUsuario', '$emailUsuario', '$senhaUsuario')";
 
             //Inclui o arquivo de conexao com o banco de dados
             include "conexaoBD.php";

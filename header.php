@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<style>
+    body {
+        background-color: black; /* Fundo preto */
+        color: white; /* Texto branco */
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,7 +37,7 @@
         <a href="index.php" title="Retornar à Página Inicial">
             <img src="img/logo.png" width="100">
         </a>
-        <h1>Strategy Campus</h1>
+        <h1 style="color:#3b7086;">Strategy Campus</h1>
     </div>
 
     <!-- Barra de Navegação do Sistema -->
@@ -46,10 +52,10 @@
                         <a class="nav-link active" href="index.php" title="Ir para a Página Inicial">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="formProduto.php" title="Cadastrar Produto">Cadastrar Produto</a>
+                        <a class="nav-link"        href="formLogin.php" title="Acessar o Sistema">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="formLogin.php" title="Acessar o Sistema">Login</a>
+                        <a class="nav-link"        href="formPartida.php" title="Cadastrar Partida">Cadastrar Partida</a>
                     </li>
                 </ul>
             </div>
