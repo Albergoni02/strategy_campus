@@ -22,7 +22,7 @@ $conn->close();
     }
 </style>
 
-<div class="container-fluid text-center">
+<div class="container-fluid text-center mb-5">
     <h2 style="color:#3b7086;">Cadastro de Partidas:</h2>
     <div class="d-flex justify-content-center mb-3">
         <div class="row">
@@ -73,7 +73,7 @@ $conn->close();
                     </div>
 
                     <div class="form-floating mb-3 mt-3">
-                        <input type="text" class="form-control" id="horarioJogo" placeholder="Informe o horário" name="horarioJogo" required>
+                        <input type="time" class="form-control" id="horarioJogo" placeholder="Informe o horário" name="horarioJogo" required>
                         <label for="horarioJogo" class="form-label">Horário da Partida:</label>
                     </div>
 
@@ -86,7 +86,7 @@ $conn->close();
                         <select class="form-select" id="dificuldadeJogo" name="dificuldadeJogo" required>
                             <option value="iniciante">Iniciante</option>
                             <option value="intermediario">Intermediário</option>
-                            <option value="avançado">Avançado</option>
+                            <option value="avancado">Avançado</option>
                         </select>
                         <label for="dificuldadeJogo" class="form-label">*Dificuldade:</label>
                     </div>

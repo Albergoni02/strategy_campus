@@ -2,7 +2,7 @@
 
     $servidorBD = "localhost"; //Define a localização do servidor de BD
     $usuarioBD  = "root"; //Define o nome do usuário do servidor de BD
-    $senhaBD    = "root"; //Define a senha do usuário do servidor de BD
+    $senhaBD    = ""; //Define a senha do usuário do servidor de BD
     $database   = "Strategy_Campus"; //Define o banco de dados que a aplicação PHP conectará
 
     //A função mysqli_connect conecta o BD à Aplicação
